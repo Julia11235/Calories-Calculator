@@ -37,14 +37,14 @@ Access the application in your web browser at http://localhost:5000.
 * public/script.js: JavaScript file containing client-side logic for interacting with the server.
 
 ### Usage
-1. Launch the application by starting the server (node server.js).  
-3. Access the application in your web browser.  
-4. Select a product from the list and enter its weight.       
-<img width="959" alt="choose product" src="https://github.com/Julia11235/Calories-Calculator/assets/120017937/37cadafe-0612-4902-8466-ead763f666de">      
-5. Click the "Calculate Calories" button to view the calorie count for the selected product.     
-<img width="948" alt="weight" src="https://github.com/Julia11235/Calories-Calculator/assets/120017937/553bf441-1b58-463b-83a3-6f8400b4fdbd">      
-6. The total calorie count for the meal is displayed dynamically.       
-7. View the list of meal entries with their respective calorie counts.               
-<img width="549" alt="list" src="https://github.com/Julia11235/Calories-Calculator/assets/120017937/943f5aca-f109-4730-b132-6454c72160ea">
+1. Launch the application by starting the server (node server.js). <br>
+2. Access the application in your web browser. <br>
+3. Select a product from the list and enter its weight. <br>
+<img width="959" alt="choose product" src="https://github.com/Julia11235/Calories-Calculator/assets/120017937/37cadafe-0612-4902-8466-ead763f666de"> <br>     
+4. Click the "Calculate Calories" button to view the calorie count for the selected product. <br> 
+<img width="948" alt="weight" src="https://github.com/Julia11235/Calories-Calculator/assets/120017937/553bf441-1b58-463b-83a3-6f8400b4fdbd"> <br>
+5. The total calorie count for the meal is displayed dynamically. <br>       
+6. View the list of meal entries with their respective calorie counts. <br>
+<center><img width="549" alt="list" src="https://github.com/Julia11235/Calories-Calculator/assets/120017937/943f5aca-f109-4730-b132-6454c72160ea"></center>
 
 
