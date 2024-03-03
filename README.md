@@ -1,5 +1,7 @@
 # Calories Calculator
 The Calories Calculator is an application designed to help users track the number of calories consumed. It includes a database of food products and allows users to input the weight of a product to calculate its calorie count. The application is built using Node.js and Express framework, with data stored in a MySQL database.
+<img width="960" alt="start page" src="https://github.com/Julia11235/Calories-Calculator/assets/120017937/76fc47a8-ae45-435f-b9df-3780981c14f0">
+
 
 ### Features
 * Dynamic Web Interface: The application provides a user-friendly web interface where users can select a product from a list and input its weight to calculate the calorie count.
