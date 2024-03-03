@@ -1,0 +1,44 @@
+<!-- EJS (Embedded JavaScript) is a templating engine for JavaScript that allows for creating dynamic web pages. 
+It's a tool that integrates JavaScript code directly into HTML, making it easier to generate dynamic content on web pages. -->
+<!-- EJS allows embedding JavaScript code fragments directly in HTML code using <% %> or <%= %> tags. 
+    This allows for dynamically generating content on the page. -->
+<!-- Easy integration with Node.js: EJS is commonly used in Node.js applications 
+    because it's easy to integrate with frameworks like Express.js. -->
+    
+    <!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
+        <title>Product calories</title>
+        <link rel="stylesheet" type="text/css" href="styles.css">
+    </head>
+    <body>
+        <div class="content">
+            <center><h2>Enter Product Information</h2></center>
+            <form id="product-form" action="/process" method="POST">
+                <label for="product">Select a product:</label>
+                <select id="product" name="product">
+                    <% products.forEach(product => { %>
+                    <option value="<%= product.product_name %>"><%= product.product_name %></option>
+                    <% }); %>
+                </select>
+                <label for="weight">Enter weight (in grams):</label>
+                <div class="shortenElem">
+                    <input type="number" id="weight" name="weight" min="0" step="any" placeholder="Enter weight">
+                </div>
+                <input type="submit" value="Calculate Calories">
+            </form>
+            <div class="result">
+                <label for="product">Calories in the chosen product:</label>
+                <div id="calories-container">0</div>
+                <center><div id="total-calories-container">Total Calories: <span id="total-calories">0</span></div></center>
+                <div id="meal-container"></div>
+            </div>
+        </div>
+        
+        <script src="script.js"></script>
+    </body>
+    </html>
+    

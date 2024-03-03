@@ -1,0 +1,8 @@
+{
+  "mysql": {
+    "host": "localhost",    // MySQL host address
+    "user": "root",   // MySQL username (default is 'root')
+    "password": "YOUR_PASSWORD",    // MySQL password (replace 'YOUR_PASSWORD' with your actual password)
+    "database": "NAME_OF_YOUR_DATABASE"   // MySQL database name (replace 'NAME_OF_YOUR_DATABASE' with your actual database name)
+  }
+}
