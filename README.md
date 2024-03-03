@@ -1,7 +1,7 @@
 # Calories Calculator
 The Calories Calculator is an application designed to help users track the number of calories consumed. It includes a database of food products and allows users to input the weight of a product to calculate its calorie count. The application is built using Node.js and Express framework, with data stored in a MySQL database.
-<img width="960" alt="start page" src="https://github.com/Julia11235/Calories-Calculator/assets/120017937/76fc47a8-ae45-435f-b9df-3780981c14f0">
 
+<img width="960" alt="start page" src="https://github.com/Julia11235/Calories-Calculator/assets/120017937/76fc47a8-ae45-435f-b9df-3780981c14f0">
 
 ### Features
 * Dynamic Web Interface: The application provides a user-friendly web interface where users can select a product from a list and input its weight to calculate the calorie count.
@@ -40,7 +40,11 @@ Access the application in your web browser at http://localhost:5000.
 1. Launch the application by starting the server (node server.js).
 2. Access the application in your web browser.
 3. Select a product from the list and enter its weight.
+<img width="959" alt="choose product" src="https://github.com/Julia11235/Calories-Calculator/assets/120017937/37cadafe-0612-4902-8466-ead763f666de">
 4. Click the "Calculate Calories" button to view the calorie count for the selected product.
+<img width="948" alt="weight" src="https://github.com/Julia11235/Calories-Calculator/assets/120017937/553bf441-1b58-463b-83a3-6f8400b4fdbd">
 5. The total calorie count for the meal is displayed dynamically.
 6. View the list of meal entries with their respective calorie counts.
+![image](https://github.com/Julia11235/Calories-Calculator/assets/120017937/59788b0b-3907-437d-a274-78a20bdb3dc4)
+
 
