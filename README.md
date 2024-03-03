@@ -45,6 +45,6 @@ Access the application in your web browser at http://localhost:5000.
 <img width="948" alt="weight" src="https://github.com/Julia11235/Calories-Calculator/assets/120017937/553bf441-1b58-463b-83a3-6f8400b4fdbd">
 5. The total calorie count for the meal is displayed dynamically.
 6. View the list of meal entries with their respective calorie counts.
-![image](https://github.com/Julia11235/Calories-Calculator/assets/120017937/59788b0b-3907-437d-a274-78a20bdb3dc4)
+<img width="549" alt="list" src="https://github.com/Julia11235/Calories-Calculator/assets/120017937/943f5aca-f109-4730-b132-6454c72160ea">
 
 
